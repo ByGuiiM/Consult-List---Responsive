@@ -12,6 +12,7 @@
     --blue-hover: #4786F0;
     --blue-press: #4373DC;
     --blue-focus: #4062C9;
+    --background: #F6F6F6;
     --white: #FFFFFF;
     --white-button: #ECECEC;
     --gray: #A3A3A3;
@@ -29,4 +30,5 @@ body {
     font-family: var(--main-font);
     font-size: 16px;
     font-weight: 400;
+    background-color: var(--background);
 }

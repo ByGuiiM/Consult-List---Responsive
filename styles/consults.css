@@ -11,15 +11,22 @@
     padding-left: 2em;
 }
 
+.consults__container,
+.consults__container2 {
+    background-color: var(--white);
+    border-radius: 0.5em;
+    margin: 0 0.2em;
+}
+
 .consults__container {
     display: flex;
     justify-content: space-around;
-    margin: 2em;
+    padding: 1em 2em;
     align-items: center;
 }
 
 .people__image {
-    max-width: 3em;
+    max-width: 2.5em;
     border-radius: 6em;
 }
 
@@ -53,7 +60,7 @@
 /* Second Div*/
 
 .consults__container2 {
-    margin: 1em 2em;
+    padding: 1em 2em;
 }
 
 .container__text {
