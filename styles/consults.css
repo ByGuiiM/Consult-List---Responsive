@@ -1,0 +1,121 @@
+.consults {}
+
+.consult__title,
+.consult__name {
+    font-weight: 700;
+    color: var(--dark-gray);
+}
+
+.consult__title {
+    font-size: 1rem;
+    padding-left: 2em;
+}
+
+.consults__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    align-items: center;
+}
+
+.people__image {
+    max-width: 3em;
+    border-radius: 6em;
+}
+
+.consults__container__container {
+    margin: 0 auto 0 1em;
+}
+
+.consult__name {
+    font-size: 0.875rem;
+    padding-bottom: 0.2em;
+}
+
+.container__camera-text {
+    display: flex;
+}
+
+.logo__consult {
+    max-width: 16px;
+    margin-right: 0.5em;
+}
+
+.consult__text {
+    font-size: 0.75rem;
+    color: var(--gray);
+}
+
+.chat__consult {
+    margin-bottom: 0.5em;
+}
+
+/* Second Div*/
+
+.consults__container2 {
+    margin: 1em 2em;
+}
+
+.container__text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--dark-gray);
+}
+
+.list-box {
+    display: flex;
+}
+
+.list-box__item {
+    margin: 1em auto 1em auto;
+}
+
+.first__button,
+.second__button,
+.third__button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.first__button {
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+.first__button:hover {
+    background-color: var(--yellow-hover);
+}
+
+.second__button {
+    background-color: var(--white);
+    border: 1px solid var(--white-button);
+    color: var(--dark-gray);
+}
+
+.second__button:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.third__button {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1em 7em;
+}
+
+.third__button:hover {
+    background-color: var(--blue-hover);
+}
+
+hr {
+    width: 90%;
+    text-align: center;
+    display: block;
+    border: 0;
+    border-top: 1px solid;
+    border-color: var(--white-button);
+}

@@ -1,15 +1,19 @@
 @import url(../styles/reset.css);
 @import url(../styles/header.css);
-
+@import url(../styles/consults.css);
 
 :root {
     /*colors*/
     --yellow: #FFB050;
+    --yellow-hover: #f0a03f;
+    --yellow-press: #e08d28;
+    --yellow-focus: #ca7c1d;
     --blue: #4894FF;
     --blue-hover: #4786F0;
     --blue-press: #4373DC;
     --blue-focus: #4062C9;
     --white: #FFFFFF;
+    --white-button: #ECECEC;
     --gray: #A3A3A3;
     --light-gray: #B9B9B9;
     --dark-gray: #464646;
