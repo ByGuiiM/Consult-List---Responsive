@@ -1,0 +1,46 @@
+.first__button,
+.second__button,
+.third__button,
+.fourth__button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.first__button {
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+.first__button:hover {
+    background-color: var(--yellow-hover);
+}
+
+.second__button {
+    background-color: var(--white);
+    border: 1px solid var(--white-button);
+    color: var(--dark-gray);
+}
+
+.second__button:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.third__button {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1em 7em;
+}
+
+.third__button:hover, .fourth__button:hover {
+    background-color: var(--blue-hover);
+}
+
+.fourth__button {
+    background-color: var(--blue);
+    color: var(--white);
+}

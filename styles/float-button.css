@@ -1,0 +1,35 @@
+.float__button {
+    position: relative;
+}
+
+.float__button .register-float__button {
+    position: absolute;
+    right: 16px;
+    bottom: 70px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    z-index: 5;
+}
+
+button.register-float__button span{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/icons/maisicone.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.float__button ul {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+    padding: 80vh 0 20px 0;
+}

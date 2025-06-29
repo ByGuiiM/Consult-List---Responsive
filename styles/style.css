@@ -1,6 +1,9 @@
 @import url(../styles/reset.css);
 @import url(../styles/header.css);
+@import url(../styles/buttons.css);
+@import url(../styles/float-button.css);
 @import url(../styles/consults.css);
+@import url(../styles/footer.css);
 
 :root {
     /*colors*/
