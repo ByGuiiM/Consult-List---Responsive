@@ -13,7 +13,7 @@
     z-index: 5;
 }
 
-button.register-float__button span{
+button.register-float__button span {
     position: absolute;
     width: 16px;
     height: 16px;
@@ -32,4 +32,68 @@ button.register-float__button span{
     right: 0;
     bottom: 0;
     padding: 80vh 0 20px 0;
+    padding-bottom: 130px;
+    transition: 3.s ease;
+    transform: scale(0);
+    transform-origin: 85% bottom;
+    background: radial-gradient(circle at bottom right, black, 20%, transparent);
+    z-index: 2;
+}
+
+.register-float__button:focus + ul{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.float__button> ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.float__button ul li>span {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    font-size: 0.75rem;
+    background: var(--white);
+    border-radius: 20px;
+    padding: 0 8px;
+    margin-right: 4px;
+}
+
+button.float__button-item {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    border-radius: 50%;
+}
+
+button.float__button-item span{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button.float__button-item span.local{
+    background-image: url('../assets/icons/pinfabiconee.svg');
+}
+
+button.float__button-item span.remote{
+    background-image: url('../assets/icons/Camerafab.svg');
+}
+
+@media  screen and (min-width: 1440px) {
+    .float__button {
+        display: none;
+    }
 }
