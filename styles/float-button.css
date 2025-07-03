@@ -1,9 +1,11 @@
 .float__button {
-    position: relative;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .float__button .register-float__button {
-    position: absolute;
+    position: fixed;
     right: 16px;
     bottom: 70px;
     width: 56px;
@@ -14,7 +16,7 @@
 }
 
 button.register-float__button span {
-    position: absolute;
+    position: fixed;
     width: 16px;
     height: 16px;
     background-image: url('../assets/icons/maisicone.svg');
@@ -26,7 +28,7 @@ button.register-float__button span {
 }
 
 .float__button ul {
-    position: absolute;
+    position: fixed;
     width: 100%;
     opacity: 0;
     right: 0;
@@ -74,7 +76,7 @@ button.float__button-item {
 }
 
 button.float__button-item span{
-    position: absolute;
+    position: fixed;
     width: 24px;
     height: 24px;
     top: 50%;

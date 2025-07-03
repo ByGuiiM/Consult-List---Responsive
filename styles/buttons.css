@@ -44,3 +44,32 @@
     background-color: var(--blue);
     color: var(--white);
 }
+
+@media screen and (min-width: 1440px) {
+    .first__button:active {
+        background-color: var(--yellow-press);
+    }
+
+    .first__button:focus {
+        background-color: var(--yellow-focus);
+    }
+
+    .second__button:active {
+        background-color: var(--blue);
+        color: var(--white);
+    }
+
+    .second__button:focus {
+        background-color: var(--blue-press);
+        color: var(--white);
+        border-color: var(--blue);
+    }
+
+    .third__button:active , .fourth__button:active {
+        background-color: var(--blue-press);
+    }
+
+    .third__button:focus , .fourth__button:focus {
+        background-color: var(--blue-focus);
+    }
+}

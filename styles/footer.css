@@ -4,6 +4,8 @@ section.footer {
     border-radius: 12px 12px 0 0;
     background: var(--white);
     filter: drop-shadow(0 -1px 3px #46464625);
+    position: fixed;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -56,4 +58,31 @@ section.footer {
 .footer nav .footer__item span.menu-icon {
     opacity: 30%;
     background-image: url('../assets/icons/menu\ icone.svg');
+}
+
+@media screen and (min-width: 1440px) {
+    section.footer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 26vh;
+        height: 100vh;
+    }
+
+    .footer nav {
+        height: 90%;
+    }
+
+    .footer nav>ul {
+        flex-direction: column;
+    }
+
+    .footer nav .footer__item {
+        flex-direction: row;
+        padding: 1em 2em 0.5em 2em;
+    }
+
+    .footer nav .footer__item span {
+        margin-right: 1em;
+    }
 }
